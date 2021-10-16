@@ -27,7 +27,7 @@ jobs:
           cd ~/JS
           node Task/ranlv.js
         env: 
-          RLURL: ${{ secrets.RLURL }}
+          RL_RLURL: ${{ secrets.RL_RLURL }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
 
